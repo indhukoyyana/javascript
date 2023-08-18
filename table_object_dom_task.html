@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="">
+	<tr>
+		<th>course name</th>
+		<th>course number</th>
+		<th>course fees</th>
+		<th>place</th>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tbody id="course"></tbody>
+	</table>
+	<script>
+		let course=
+		[{
+           'course name':'HTML',
+           'course number':'1',
+           'course fees':'6000',
+           'place':'thub'
+		},
+		{
+			'course name':'CSS',
+           'course number':'2',
+           'course fees':'6000',
+           'place':'thub'
+		},
+		{
+			'course name':'javascript',
+           'course number':'3',
+           'course fees':'6000',
+           'place':'thub'
+
+		}]
+		//let courses=document.getElementById('course')
+        function myFunction() {
+       var table = document.getElementById("course");
+       var row = table.insertRow(0);
+       var cell1 = row.insertCell(0);
+       var cell2 = row.insertCell(1);
+  cell1.innerHTML = "NEW CELL1";
+  cell2.innerHTML = "NEW CELL2";
+}
+	</script>
+	
+
+</body>
+</html>

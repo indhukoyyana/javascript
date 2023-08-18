@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    	setTimeout(function() 
+    	{
+    	 document.write("display after 3 secs");
+    	 document.write("<br>");
+    	},3000)
+    	//callback is a function within the function as an arguement
+    	setTimeout(test,4000)
+    	function test()
+        {
+    		document.write("display after 4 secs");
+    	}
+    </script>
+</body>
+</html>
